@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo Cleaning Old Builds..
+rm -fr ./output
+echo Done.
+
+echo Building RawDraw..
+mkdir output
+gcc main.c -o ./output/rawdraw -lSDL2 -lGLESv2
+echo Done.

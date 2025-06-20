@@ -1,0 +1,4 @@
+#!/bin/bash
+
+SDL_VIDEODRIVER=KMSDRM
+./output/rawdraw
